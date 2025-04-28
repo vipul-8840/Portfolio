@@ -1,5 +1,4 @@
 
-
 import './App.css'
 import BlurBlob from './BlurBob'
 import About from './components/About/About'
@@ -7,8 +6,6 @@ import Navbar from './components/Navbar/Navbar'
 import Skills from './components/Skills/Skills'
 
 function App() {
- 
-
   return (
     <div className="bg-[#050414]">
           <BlurBlob position={{ top: '35%', left: '20%' }} size={{ width: '30%', height: '40%' }} />
