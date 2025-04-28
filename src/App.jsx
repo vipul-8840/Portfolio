@@ -4,6 +4,7 @@ import './App.css'
 import BlurBlob from './BlurBob'
 import About from './components/About/About'
 import Navbar from './components/Navbar/Navbar'
+import Skills from './components/Skills/Skills'
 
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
        <div className="relative pt-20">
          <Navbar/>
          <About/>
+         <Skills/>
        </div>
        hello
     </div>
