@@ -27,9 +27,9 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import chegglogo from './assets/company_logo/chegglogo.jpg';
+import CodeAlphalogo from './assets/company_logo/codeAlpha.jpeg';
+
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/gla_logo.png';
@@ -97,5 +97,42 @@ export const SkillsInfo = [
         { name: 'Figma', logo: figmaLogo },
       ],
     },
+  ];
+  
+  export const experiences = [
+    {
+      id: 0,
+      img: CodeAlphalogo,
+      role: "Web Developer",
+      company: "CodeAlpha",
+      date: "October 2024 - Nov 2023",
+      desc: "Worked as a Frontend Developer Intern, building scalable UI components and responsive web applications using HTML, CSS, JavaScript, React, and Tailwind CSS. Focused on developing clean, user-friendly interfaces and enhancing website performance through modern frontend practices. ",
+      skills: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React JS",
+        "Tailwind CSS"
+      ],
+    },
+    {
+      id: 1,
+      img: chegglogo,
+      role: "Tutor",
+      company: "CheggIndia",
+      date: "Aug 2024 - Feb 2025",
+      desc: "Worked as a Subject Matter Expert (Tutor) at Chegg, actively solving over 300–400 academic doubts in various subjects. Delivered accurate, well-explained solutions to support students' learning and conceptual understanding. Consistently maintained high-quality standards while managing a large volume of queries within tight deadlines.",
+      skills: [
+        "Programming Skills",
+        "ReactJS",
+        "Redux",
+        "JavaScript",
+        "Tailwind CSS",
+        "HTML",
+        "CSS",
+        "SQL",
+      ],
+    },
+    
   ];
   
