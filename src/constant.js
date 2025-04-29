@@ -32,9 +32,9 @@ import CodeAlphalogo from './assets/company_logo/codeAlpha.jpeg';
 
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import KNITLogo from './assets/education_logo/KNITLogo.jpeg';
+import OxfordLogo from './assets/education_logo/Oxfordlogo.jpg';
+import SarswatiLogo from './assets/education_logo/SarswatiLogo.avif';
 
 // Project Section Logo's
 import netflixLogo from './assets/work_logo/netflix.png';
@@ -157,4 +157,37 @@ export const SkillsInfo = [
     
     
   ];  
+  
+  //Education Section 
+
+  export const education = [
+    {
+      id: 0,
+      img: KNITLogo,
+      school: "KNIT Sultanpur, Uttar Pradesh",
+      date: "Nov 2020 - June 2024",
+      grade: "83% CGPA",
+      desc: "I have completed my Bachelor's degree (B.Tech) in Computer Science and Engineering from KNIT Sultanpur. During my time at KNIT, I gained a strong foundation in programming, software development, and computer science principles. I studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at KNIT Sultanpur has been instrumental in shaping my technical abilities and professional growth.",
+      degree: "Computer Science & Engineering- CSE",
+    },
+    {
+      id: 1,
+      img: OxfordLogo,
+      school: "Oxford Public School, Gorakhpur",
+      date: "Apr 2017 - Mar 2020",
+      grade: "81.2%",
+      desc: "I completed my Class 12 education from Oxford Public School, Gorakhpur under the CBSE board, with Physics, Chemistry, and Mathematics (PCM) as my main subjects. I secured an aggregate of 81.2%, demonstrating consistent academic performance.",
+      degree: "CBSE(XII) - PCM .",
+    },
+    {
+      id: 2,
+      img: SarswatiLogo,
+      school: "Sarswati Shishu Mandir Sr. Hr. Sec. School , Gorakhpur",
+      date: "Apr 2015 - Mar 2017",
+      grade: "95",
+      desc: "I completed my Class 10 education from Saraswati Shishu Mandir Sr. Hr. Sec. School, Gorakhpur under the CBSE board, where I studied core subjects including Physics, Chemistry, and Mathematics (PCM). I achieved a perfect CGPA of 10, reflecting my strong academic performance.",
+      degree: "CBSE (X) – High School",
+    },
+   
+  ];
   
