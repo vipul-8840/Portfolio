@@ -2,6 +2,7 @@
 import './App.css'
 import BlurBlob from './BlurBob'
 import About from './components/About/About'
+import Experience from './components/Experience/Experience'
 import Navbar from './components/Navbar/Navbar'
 import Skills from './components/Skills/Skills'
 
@@ -16,6 +17,7 @@ function App() {
          <Navbar/>
          <About/>
          <Skills/>
+         <Experience/>
        </div>
        hello
     </div>
