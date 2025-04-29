@@ -33,7 +33,7 @@ import CodeAlphalogo from './assets/company_logo/codeAlpha.jpeg';
 
 // Education Section Logo's
 import KNITLogo from './assets/education_logo/KNITLogo.jpeg';
-import OxfordLogo from './assets/education_logo/Oxfordlogo.jpg';
+import OxfordLogo from './assets/education_logo/OxfordLogo.jpg';
 import SarswatiLogo from './assets/education_logo/SarswatiLogo.avif';
 
 // Project Section Logo's
