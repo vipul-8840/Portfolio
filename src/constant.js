@@ -37,15 +37,9 @@ import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import netflixLogo from './assets/work_logo/netflix.png';
+import brainlyLogo from './assets/work_logo/brainly.png';
+
 
 
 export const SkillsInfo = [
@@ -105,7 +99,7 @@ export const SkillsInfo = [
       img: CodeAlphalogo,
       role: "Web Developer",
       company: "CodeAlpha",
-      date: "October 2024 - Nov 2023",
+      date: "Oct 2024 - Nov 2023",
       desc: "Worked as a Frontend Developer Intern, building scalable UI components and responsive web applications using HTML, CSS, JavaScript, React, and Tailwind CSS. Focused on developing clean, user-friendly interfaces and enhancing website performance through modern frontend practices. ",
       skills: [
         "HTML",
@@ -135,4 +129,32 @@ export const SkillsInfo = [
     },
     
   ];
+
+  // project section 
+
+  export const projects = [
+    {
+      id: 0,
+      title: "Netflix-Clone",
+      description:
+        "This project is a replica of Netflix built using modern web technologies. The frontend is developed with React and Tailwind CSS, while the backend uses Node.js, Express, and MongoDB. Users can browse movies, view trailers, log in/sign up, and manage their profiles. It also includes authentication using JWT and has a responsive design for all devices",
+      image: netflixLogo,
+      tags: ["React", "Tailwind CSS,", "Node.js", "Express.js,", "MongoDB"],
+      github: "https://github.com/vipul-8840/Netflix-Project",
+      webapp: "https://netflix-project-vu87.onrender.com/",
+    },
+    {
+      id: 1,
+      title: "Brainly - Digital Knowledge Management System",
+      description:
+        "This project acts like a second brain, helping users save and manage important information digitally. For example, if you're watching a lecture on YouTube but have to leave it midway due to urgent work, you can save the video link, add a title, write a short note, and categorize it (like 'DBMS'or 'React') on this platform. Later, you can easily search and revisit it anytime.",
+      image: brainlyLogo,
+      tags: ["React", "Typescript" , "Tailwind CSS,", "Node.js", "Express.js,", "MongoDB" ],
+      github: "https://github.com/vipul-8840/Brainly/tree/main/src",
+      webapp: "#",
+    },
+    
+    
+    
+  ];  
   
