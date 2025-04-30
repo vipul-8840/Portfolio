@@ -99,7 +99,7 @@ export const SkillsInfo = [
       img: CodeAlphalogo,
       role: "Web Developer",
       company: "CodeAlpha",
-      date: "Oct 2024 - Nov 2023",
+      date: "Oct 2024 - Nov 2024",
       desc: "Worked as a Frontend Developer Intern, building scalable UI components and responsive web applications using HTML, CSS, JavaScript, React, and Tailwind CSS. Focused on developing clean, user-friendly interfaces and enhancing website performance through modern frontend practices. ",
       skills: [
         "HTML",
