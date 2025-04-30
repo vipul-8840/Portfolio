@@ -3,7 +3,7 @@ import React from "react";
 import { FaGithub, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
-  // Smooth scroll function
+  // Smooth scroll func
   const handleScroll = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
