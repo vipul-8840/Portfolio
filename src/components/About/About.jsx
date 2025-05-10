@@ -34,7 +34,7 @@ const About = () => {
                         />
                       </span>
                   </h3>
-                  <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
+                  <p className="justify-start text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
                     I'm Vipul, a Fullstack Developer with a passion 
                     for building modern, scalable web applications. I specialize in React.js, Next.js, Tailwind CSS, TypeScript, and Redux for efficient state management. 
                     I leverage MongoDB for database solutions and design intuitive UI/UX experiences with Figma.
