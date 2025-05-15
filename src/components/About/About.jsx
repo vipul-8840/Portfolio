@@ -42,7 +42,7 @@ const About = () => {
                     I bring analytical thinking into development, solving 600+ problem on LeetCode, and ensuring high performance and scalability through Vercel deployment. Always eager to learn, grow, and create seamless digital experiences, I strive to craft modern web applications.
                  </p>
                  <a
-                  href="https://drive.google.com/file/d/1GYB4fwazokd7ZB0Eso49pNgVqovIVXoz/view?usp=drivesdk"
+                  href="https://drive.google.com/file/d/1KkJfeToH5-JDYwXFDGS5VaV8wDHMBN1L/view?usp=drivesdk"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block text-white py-3 px-10 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
